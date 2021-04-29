@@ -28,6 +28,12 @@ nav ul
     float: right;
 }
 
+.fl
+{
+    float: left;
+    width: 100%;
+}
+
 nav ul li
 {
     padding-left: 15px;
@@ -62,4 +68,79 @@ header
 {
     background-color: lightblue;
     height: 80vh;
+}
+
+h2
+{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+section
+{
+    /* width: 1280px; */
+}
+
+.testo1
+{
+    display: inline-block;
+    margin: auto;}
+
+.colonna
+{
+    width: 21%;
+    height: 60vh;
+    margin: 6%;
+    list-style: none;
+    border: 1px solid lightgrey;
+
+}
+
+.colonna ul li
+{
+    list-style: none;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.colonna ul li:first-child
+{
+    border-bottom: 1px solid lightgrey;
+}
+
+.riga2
+{
+    float: left;
+    width: 100%;
+    height: 20vh;
+    background-color: blue;
+}
+
+.riga2 ul li
+{
+    font-size: 50px;
+}
+
+.riga2 ul
+{
+    display: inline-block;
+    vertical-align: top;
+}
+.riga2 ul:last-child
+{
+    float: right;
+}
+
+.img1
+{
+    width: 50%;
+}
+
+.testo3
+{
+    width: 300px;
+    margin: auto;
+    text-align: center;
 }
