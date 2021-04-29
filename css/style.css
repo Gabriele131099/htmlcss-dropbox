@@ -4,3 +4,62 @@
     padding: 0%;
     margin: 0%;
 }
+.clearfix::after
+{
+    clear: both;
+    content: " ";
+    display: table;
+}
+nav
+{
+    background-color: beige;
+}
+.menu
+{
+    width: 700px;
+}
+nav ul 
+{
+    list-style: none;
+}
+
+.fr
+{
+    float: right;
+}
+
+nav ul li
+{
+    padding-left: 15px;
+    padding-top: 10px;
+    width: 20%;
+    float: left;
+}
+h1{
+    font-size: 80px;
+    float: left;
+    padding-left: 200px;
+    text-align: start;
+}
+.riga
+{
+    width: 600px;
+    font-size: 20px;
+
+}
+
+header .riga, .img
+{
+    padding-top: 200px;
+    float: left;
+    padding-left: 200px;
+}
+.img{
+    width: 1200px;
+    padding-left: 50px;
+}
+header
+{
+    background-color: lightblue;
+    height: 80vh;
+}
