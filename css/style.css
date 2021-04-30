@@ -138,6 +138,15 @@ header
 
 }
 
+.grigio-chiaro
+{
+color: lightgray;
+}
+
+.icon-li::before
+{
+    content:url("../img/logo-small.png");
+}
 
 
 .colonna ul li:first-child
