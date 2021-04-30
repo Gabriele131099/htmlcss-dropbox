@@ -218,28 +218,36 @@ color: lightgray;
     border: none;
 }
 
-    /* galleria */
-.testo-galleria 
+.testo5
 {
-    width: 50%;
-    float: left;
-    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.padding
+{
+    padding-bottom: 30px;
+}
+/* galleria */
+aside .colonna
+{
+    background-color: lightgray;
+    padding: 0%;
+    margin: 0%;
+    border: none;
+    width: calc(100% / 3 );
+    margin: auto;
+    height: 50vh;
 }
 .testo-galleria2
 {
-    width: 100%;
-    float: left;
-    text-align: center;
-    margin: auto;
-    font-size: 20px;
-}
-.testo-galleria3
-{
     width: 80%;
-    float: left;
-    text-align: center;
+    text-align: start;
+    margin: auto;
+    padding: 30px;
+    font-weight: bold;
 }
-
 
 .bottone-galleria
 {
@@ -248,52 +256,79 @@ color: lightgray;
     padding-left: 60px;
     text-align: center;
     margin-top: 30px;
-
+        
 }
-
+    
 .bottone-galleria button
 {
     padding:10px;
     font-size: 18px;
 }
-
+    
 .relative
 {
     position: relative;
 }
-
 .absolute
 {
     position: absolute;
 }
-
 .logo-basso
 {
-    width: 100px;
-    height: 100px;
-
-    
+    width: 140px;
+    padding: 20px;
 }
-
 .quadrato
 {
     width: 50%; 
     height: 25vh; 
 }
+/* colori galleria  colonna sx*/
+.lightgreen 
+{
+    background-color: lightgreen;
+}
 
-.rosso 
+.brown
 {
     background-color: brown;
 }
 
-.lightnavy
+.cornflowerblue 
 {
-    background-color: aqua;
+    background-color: cornflowerblue;
 }
+
+.red
+{
+    background-color: red;
+}
+
+/* colori galleria colonna dx */
+.lightred 
+{
+    background-color: rgb(185, 69, 69);
+}
+
+.lightskyblue
+{
+    background-color:lightskyblue;
+}
+
+.blue 
+{
+    background-color: blue;
+}
+
+.yellow
+{
+    background-color: yellow;
+}
+
 
 .centra
 {
-    width: 100px;
+    width: 150px;
     text-align: center; 
     position: absolute; 
     transform: translate(-50% , -50%); 
@@ -309,17 +344,27 @@ color: lightgray;
     text-align: center;
 }
 
-aside .colonna
-{
-    background-color: lightgray;
-    padding: 0%;
-    margin: 0%;
-    border: none;
-    width: calc(100% / 3 );
+.testo-galleria 
+{   padding: 200px;
+    width: 50%;
+    float: left;
+    text-align: center;
     margin: auto;
-    height: 50vh;
 }
-/* prima del footer */
+
+.bottone-sotto-galleria
+{
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.grandezza-bottone-galleria
+{
+    width: 50%;
+    padding: 190px;
+}
+/* blocco delle faq  */
 
 .cont-faq
 {
@@ -328,7 +373,7 @@ aside .colonna
 .faq
 {
     list-style: none;
-    font-size: 30px;
+    font-size: 24px;
     margin: auto;
     width: 60%;
 }
@@ -346,29 +391,19 @@ aside .colonna
 {
     border-top: none;
     padding-bottom: 30px;
-    font-size: 34px;
 }
-
-
-li span 
-{
-}
-
 
 .foot
 {
     padding-top: 50px;
     padding-bottom: 100px;
     background-color:  black;
-
-
 }
 
 .foot ul
 {
     padding-left: 80px;
     padding-top: 100px;
-
     width: 20%;
     text-align: center;
     list-style: none;
@@ -393,6 +428,12 @@ font-weight: bold;
 color: white;
 }
 
+.faq li span{
+    padding-left: 50px;
+    display: inline-block;
+}
 
-
-
+.quadrato svg{
+    width: 10vw;
+    filter: invert(1);
+}
