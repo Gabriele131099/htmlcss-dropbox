@@ -13,11 +13,11 @@
 }
 nav
 {
-    background-color: beige;
+    background-color: white;
 }
 .menu
 {
-    width: 700px;
+    width: 40%;
 }
 nav ul 
 {
@@ -27,6 +27,7 @@ nav ul
 .fr
 {
     float: right;
+    
 }
 
 .fl
@@ -39,11 +40,22 @@ nav ul li
 {
     padding-left: 15px;
     padding-top: 10px;
-    width: 20%;
     float: left;
+    font-weight: bold;
+}
+
+nav .fr 
+{
+
+}
+
+nav a
+{
+    text-decoration: none;
+    color: black;
 }
 h1{
-    font-size: 80px;
+    font-size: 60px;
     float: left;
     padding-left: 200px;
     text-align: start;
@@ -55,7 +67,12 @@ h1{
     margin-left: 5%;
 
 }
-
+nav button
+{
+    padding: 5px;
+    background-color: lightskyblue;
+    border: none;
+}
 header .riga, .img
 {
     float: left;
@@ -71,11 +88,32 @@ header
     height: 60vh;
 }
 
-h2
+.first-li
 {
-    width: 100%;
-    float: left;
     text-align: center;
+    font-weight: bold;
+}
+.riga button
+{
+
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(84, 84, 204);
+
+
+}
+ span
+ {
+    float: left;
+ }
+
+/* primo gruppo di colonne(3 colonne  e 1 riga) */
+.titolo
+{
+    float: left;
+    font-size: 50px;
+    font-weight: bold;
 }
 
 
@@ -91,16 +129,16 @@ h2
     list-style: none;
     border: 1px solid lightgrey;
     padding: 20px;
-
 }
 
-.colonna ul li
+ .colonna ul li
 {
     list-style: none;
-    text-align: center;
-    font-size: 30px;
+    font-size: 20px;
 
 }
+
+
 
 .colonna ul li:first-child
 {
@@ -243,7 +281,7 @@ aside .colonna
     padding: 0%;
     margin: 0%;
     border: none;
-    width: 33.3%;
+    width: calc(100% / 3 );
     height: 632px;
     margin: auto;
 }
@@ -281,37 +319,33 @@ aside .colonna
 
 li span 
 {
-    margin-left: 250px;
 }
+
 
 .foot
 {
-    margin: auto;
     padding-top: 50px;
+    padding-bottom: 100px;
+    background-color:  black;
+
+
 }
 
 .foot ul
 {
     padding-left: 80px;
     padding-top: 100px;
+
     width: 20%;
     text-align: center;
     list-style: none;
     float: left;
-    background-color: black;
 }
 
 .foot li
 {
 padding-bottom: 10px;
 color: lightgrey;
-background-color: black;
-}
-
-.nero
-{
-    background-color: black;
-
 }
 
 hr
