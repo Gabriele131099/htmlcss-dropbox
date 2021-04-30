@@ -54,7 +54,7 @@ nav a
     text-decoration: none;
     color: black;
 }
-h1{
+header h1{
     font-size: 60px;
     float: left;
     padding-left: 200px;
@@ -92,6 +92,7 @@ header
 {
     text-align: center;
     font-weight: bold;
+    border-bottom: 1px solid black;
 }
 .riga button
 {
@@ -135,43 +136,43 @@ header
 {
     list-style: none;
     font-size: 20px;
-
 }
+
 
 .grigio-chiaro
 {
 color: lightgray;
 }
 
-.icon-li::before
+.icon-li li::before 
 {
-    content:url("../img/logo-small.png");
+    content:"\260E";
+    float: left;
 }
 
-.pulsante-riga
-{
-    padding: 20px;
-    background-color: cornflowerblue;
-    font-size: 24px;
-    border: none;
-    position: relative;
-    top: 30px;
-    right: 30px;
-}
-
-
-.colonna ul li:first-child
-{
-    border-bottom: 1px solid lightgrey;
-}
 
 .riga2
 {
+    width: 100%;
     border: 1px solid black;
-    background-color: lightcyan;
-
 }
-.riga2 div:first-child
+.giu
+{
+    margin-bottom: 100px;
+}
+.pulsante-riga
+{
+    padding: 0px;
+    background-color: cornflowerblue;
+    font-size: 24px;
+    border: none;
+    position: absolute;
+    top: 100px;
+    right:  10px;
+    padding: 20px;
+}
+
+.riga2 >div:first-child
 {
     text-align: center;
     border: none; 
@@ -179,24 +180,19 @@ color: lightgray;
     padding: 20px; 
 }
 
-
-.riga2 ul li
-{
-    font-size: 50px;
-    list-style: none;
+.titolo-riga{
+    padding: 40px;
 }
 
-.riga2 ul
+.bottone-riga
 {
-    display: inline-block;
-    vertical-align: top;
-    
-}
-.riga2 ul:last-child
-{
-    float: right;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 24px;
+    background-color: white;
 }
 
+/* foto e testo blocco dopo la riga */
 .img1
 {
     width: 50%;
@@ -204,12 +200,25 @@ color: lightgray;
 
 .testo3
 {
-    width: 300px;
-    margin: auto;
-    text-align: center;
+    width: 400px;
+    padding-left: 100px;
+    padding-top: 100px;
 }
 
-/* galleria */
+/* blocco 6 colonne e titolo */
+/* cit. classe colonna clearfix fl */
+
+.testo4
+{
+    font-weight: bold;
+    padding: 10px;
+}
+
+.a{
+    border: none;
+}
+
+    /* galleria */
 .testo-galleria 
 {
     width: 50%;
@@ -221,7 +230,6 @@ color: lightgray;
     width: 100%;
     float: left;
     text-align: center;
-    padding-top: 300px;
     margin: auto;
     font-size: 20px;
 }
@@ -230,7 +238,6 @@ color: lightgray;
     width: 80%;
     float: left;
     text-align: center;
-    padding-top: 100px;
 }
 
 
@@ -264,15 +271,14 @@ color: lightgray;
 {
     width: 100px;
     height: 100px;
-    top: 50px;
-    left: 30px;
-    text-align: center
+
+    
 }
 
 .quadrato
 {
-    width: 316px; 
-    height: 316px; 
+    width: 50%; 
+    height: 25vh; 
 }
 
 .rosso 
@@ -310,10 +316,9 @@ aside .colonna
     margin: 0%;
     border: none;
     width: calc(100% / 3 );
-    height: 632px;
     margin: auto;
+    height: 50vh;
 }
-
 /* prima del footer */
 
 .cont-faq
