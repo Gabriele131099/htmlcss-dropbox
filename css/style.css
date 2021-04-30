@@ -148,6 +148,17 @@ color: lightgray;
     content:url("../img/logo-small.png");
 }
 
+.pulsante-riga
+{
+    padding: 20px;
+    background-color: cornflowerblue;
+    font-size: 24px;
+    border: none;
+    position: relative;
+    top: 30px;
+    right: 30px;
+}
+
 
 .colonna ul li:first-child
 {
@@ -156,10 +167,18 @@ color: lightgray;
 
 .riga2
 {
-    height: 20vh;
-    border: 1px solid lightcyan;
+    border: 1px solid black;
     background-color: lightcyan;
+
 }
+.riga2 div:first-child
+{
+    text-align: center;
+    border: none; 
+    border-bottom: 1px solid black; 
+    padding: 20px; 
+}
+
 
 .riga2 ul li
 {
