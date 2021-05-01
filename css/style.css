@@ -350,6 +350,11 @@ aside .colonna
     margin-top: 30px;
         
 }
+
+.invert
+{
+    filter: invert();
+}
     
 .bottone-galleria button
 {
