@@ -3,8 +3,7 @@
     box-sizing: border-box;
     padding: 0%;
     margin: 0%;
-    font-family: 'Open Sans', sans-serif;
-}
+    font-family: 'Roboto', sans-serif;}
 .clearfix::after
 {
     clear: both;
@@ -121,6 +120,7 @@ header
 {
     font-size: 20px;
     padding-bottom: 20px;
+    padding-top: 20px;
 
 }
 
@@ -151,8 +151,16 @@ header
     background-color: rgb(51, 105, 204);
     border: none;
     margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
     
 }
+.colonna .first-li~.padding-colonna
+{
+    padding: 10px;
+}
+
 
 
 
