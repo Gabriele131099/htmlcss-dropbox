@@ -17,7 +17,7 @@ nav
 }
 .menu
 {
-    width: 40%;
+    width: 60%;
 }
 nav ul 
 {
@@ -117,6 +117,17 @@ header
     font-weight: bold;
 }
 
+.first-li
+{
+    font-size: 20px;
+    padding-bottom: 20px;
+
+}
+
+.titolo-colonna
+{
+    padding-top: 20px;
+}
 
 .testo1
 {
@@ -129,7 +140,30 @@ header
     margin: 20px;
     list-style: none;
     border: 1px solid lightgrey;
-    padding: 20px;
+}
+
+/* bottone tabella */
+.bottone8
+{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(51, 105, 204);
+    border: none;
+    margin-bottom: 20px;
+    
+}
+
+
+
+.icon-li li
+{
+    padding-bottom: 10px ;
+}
+
+.icon-li ul
+{
+ padding-bottom: 30px;
 }
 
  .colonna ul li
@@ -137,6 +171,8 @@ header
     list-style: none;
     font-size: 20px;
 }
+
+.icon-li
 
 
 .grigio-chiaro
@@ -368,14 +404,16 @@ aside .colonna
 
 .cont-faq
 {
-    padding: 80px;
 }
 .faq
 {
     list-style: none;
     font-size: 24px;
-    margin: auto;
+    text-align: center;
     width: 60%;
+    margin: auto;
+    padding-bottom: 40px;
+    padding-top: 40px;
 }
 
 .faq li
@@ -390,7 +428,6 @@ aside .colonna
 .faq li:first-child
 {
     border-top: none;
-    padding-bottom: 30px;
 }
 
 .foot
@@ -429,11 +466,4 @@ color: white;
 }
 
 .faq li span{
-    padding-left: 50px;
-    display: inline-block;
-}
-
-.quadrato svg{
-    width: 10vw;
-    filter: invert(1);
 }
