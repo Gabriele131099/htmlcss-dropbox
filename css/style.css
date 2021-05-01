@@ -163,7 +163,7 @@ header
 
 .icon-li ul
 {
- padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
  .colonna ul li
@@ -185,6 +185,24 @@ color: lightgray;
     content:"\260E";
     float: left;
 }
+
+.icon-li-2 li::before
+{
+    content: "\1F5F8";
+    float: left;
+}
+
+.icon-li-2 li
+{
+    padding-bottom: 10px ;
+}
+
+.icon-li-2 ul
+{
+  padding-bottom: 30px;
+}
+
+
 
 
 .riga2
@@ -466,4 +484,9 @@ color: white;
 }
 
 .faq li span{
+}
+
+.quadrato img
+{
+    filter: invert();
 }
