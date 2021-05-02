@@ -18,6 +18,8 @@
 nav
 {
     background-color: white;
+    position: fixed;
+    width: 100%;
 }
 .menu
 {
@@ -48,17 +50,13 @@ nav ul li
     font-weight: bold;
 }
 
-nav .fr 
-{
-
-}
-
 nav a
 {
     text-decoration: none;
     color: black;
 }
-header h1{
+header h1
+{
     font-size: 60px;
     float: left;
     padding-left: 200px;
@@ -105,8 +103,6 @@ header
     font-size: 20px;
     border: none;
     background-color: rgb(84, 84, 204);
-
-
 }
  span
  {
@@ -129,7 +125,6 @@ header
     font-size: 20px;
     padding-bottom: 20px;
     padding-top: 20px;
-
 }
 
 .titolo-colonna
@@ -150,6 +145,7 @@ header
     margin: 40px;
     list-style: none;
     border: 1px solid lightgrey;
+    min-width: 200px;
 }
 
 /* bottone tabella */
@@ -164,15 +160,11 @@ header
     text-align: center;
     color: white;
     font-weight: bold;
-    
 }
 .colonna .first-li~.padding-colonna
 {
     padding: 10px;
 }
-
-
-
 
 .icon-li li
 {
@@ -190,12 +182,9 @@ header
     font-size: 20px;
 }
 
-.icon-li
-
-
 .grigio-chiaro
 {
-color: lightgray;
+    color: lightgray;
 }
 
 .icon-li li::before 
@@ -203,7 +192,6 @@ color: lightgray;
     content:"\260E";
     float: left;
     padding-right: 5px;
-
 }
 
 .icon-li-2 li::before
@@ -223,10 +211,11 @@ color: lightgray;
 
 .icon-li-2 ul
 {
-  padding-bottom: 30px;
+    padding-bottom: 30px;
 }
 
-.colonna h3{
+.colonna h3
+{
     padding-bottom: 10px;
 }
 
@@ -296,7 +285,8 @@ color: lightgray;
     padding: 10px;
 }
 
-.a{
+.a
+{
     border: none;
 }
 
@@ -422,10 +412,9 @@ aside .colonna
     background-color: yellow;
 }
 
-
+/* centra */
 .centra
 {
-    width: 150px;
     text-align: center; 
     position: absolute; 
     transform: translate(-50% , -50%); 
