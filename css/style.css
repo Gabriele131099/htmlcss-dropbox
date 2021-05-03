@@ -15,6 +15,18 @@
 {
     padding-top: 100px;
 }
+
+.ruota
+{ 
+    overflow: hidden; 
+    transition-duration: 2s; 
+    transition-property: transform;
+} 
+.ruota:hover 
+{ 
+    transform: rotate(360deg); 
+}
+
 nav
 {
     background-color: white;
@@ -369,6 +381,10 @@ aside .colonna
 {
     width: 50%; 
     height: 25vh; 
+}
+
+.quadrato img{
+    width: 70%;
 }
 /* colori galleria  colonna sx*/
 .lightgreen 
