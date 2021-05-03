@@ -382,9 +382,14 @@ aside .colonna
     width: 50%; 
     height: 25vh; 
 }
-
-.quadrato img{
+.quadrato svg{
     width: 70%;
+}
+
+
+.quadrato svg path{
+    
+    fill: beige;
 }
 /* colori galleria  colonna sx*/
 .lightgreen 
