@@ -67,41 +67,48 @@ nav a
     text-decoration: none;
     color: black;
 }
-header h1
-{
-    font-size: 60px;
-    float: left;
-    padding-left: 200px;
-    text-align: start;
-}
-.riga
-{
-    width: 30%;
-    font-size: 20px;
-    margin-left: 5%;
 
-}
 nav button
 {
     padding: 5px;
     background-color: lightskyblue;
     border: none;
 }
-header .riga, .img
+
+.contenitore-primo-titolo
+{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.contenitore-primo-titolo >h1
+{
+    font-size: 70px;
+}
+.riga
+{
+  margin: auto;
+}
+
+
+header .riga .img
 {
     float: left;
-    padding-top: 30px;
-}
-.img{
     width: 60%;
-    padding-left: 50px;
+}
+.testo-riga
+{
+    padding: 50px;
+    float: left;
+    width: 30%;
 }
 header
 {
     background-color: lightblue;
-    height: 600px;
+    height: 700px;
 }
-
+/*3  colonne  */
 .first-li
 {
     text-align: center;
